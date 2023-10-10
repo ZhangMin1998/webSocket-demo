@@ -47,7 +47,7 @@ export default {
       )
     },
     connect() {
-      this.ws = new WebSocket('ws://192.168.4.44:6699')
+      this.ws = new WebSocket('ws://192.168.4.44:6699') // 填你自己电脑的ip
       this.init()
     },
     init() {
